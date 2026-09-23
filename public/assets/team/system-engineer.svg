@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Placeholder portrait for System Design Engineer">
+  <rect width="400" height="400" fill="#241910"/>
+  <circle cx="200" cy="200" r="150" fill="none" stroke="#FF6B35" stroke-width="10"/>
+  <circle cx="200" cy="152" r="52" fill="#FFF9F5"/>
+  <path d="M104 312c12-64 48-96 96-96s84 32 96 96" fill="#FFF9F5"/>
+  <circle cx="200" cy="200" r="150" fill="none" stroke="#18B6C9" stroke-width="2" stroke-dasharray="8 10"/>
+</svg>

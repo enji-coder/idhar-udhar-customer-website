@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#111827"/>
+  <circle cx="980" cy="470" r="280" fill="#FF6B35" opacity="0.9"/>
+  <circle cx="860" cy="180" r="90" fill="#18B6C9" opacity="0.8"/>
+  <path d="M120 430C280 300 360 360 500 250S820 160 1040 210" fill="none" stroke="#FFF9F5" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="120" cy="430" r="14" fill="#18B6C9"/>
+  <circle cx="1040" cy="210" r="14" fill="#FFF9F5"/>
+  <text x="80" y="180" fill="#FF6B35" font-family="Arial, sans-serif" font-size="28" letter-spacing="6">IDHAR UDHAR</text>
+  <text x="80" y="280" fill="#FFF9F5" font-family="Arial, sans-serif" font-size="64" font-weight="700">Moving what matters,</text>
+  <text x="80" y="360" fill="#FFF9F5" font-family="Arial, sans-serif" font-size="64" font-weight="700">made simple.</text>
+  <text x="80" y="450" fill="#D6D3D1" font-family="Arial, sans-serif" font-size="28">Local parcel and goods delivery · Ahmedabad</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Placeholder portrait for CEO and Founder">
+  <rect width="400" height="400" fill="#1B2430"/>
+  <circle cx="320" cy="70" r="90" fill="#FF6B35" opacity="0.9"/>
+  <circle cx="200" cy="156" r="58" fill="#FFF9F5"/>
+  <path d="M78 348c18-78 62-112 122-112s104 34 122 112" fill="#FFF9F5"/>
+  <path d="M40 400h320" stroke="#18B6C9" stroke-width="8"/>
+</svg>
