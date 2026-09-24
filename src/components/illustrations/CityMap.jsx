@@ -13,7 +13,7 @@ const AREAS = [
 export default function CityMap() {
   return (
     <div className="city-map">
-      <img src={assets.cityRoute} alt="Schematic route across Ahmedabad focus areas" />
+      <img src={assets.cityRoute} alt="Schematic of listed Ahmedabad areas, not a full coverage map" />
       <ul className="area-pins">
         {AREAS.map((area) => (
           <li key={area.name} style={{ left: area.x, top: area.y }}>

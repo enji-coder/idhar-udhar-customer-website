@@ -9,7 +9,7 @@ export default function ContactPage() {
     <>
       <Seo
         title={`Contact | ${company.brandName}`}
-        description="Contact IDHAR UDHAR, a product of Swiftsendinnovation, for local delivery support in Ahmedabad."
+        description="Contact IDHAR UDHAR, a product of Swiftsendinnovation. Serving Gujarat, with expansion to more states coming soon."
         path="/contact"
       />
       <PageHero

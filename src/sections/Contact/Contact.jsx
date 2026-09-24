@@ -94,7 +94,14 @@ export default function Contact({ embedded = false }) {
             {address && (
               <div>
                 <dt>Address</dt>
-                <dd>{address}</dd>
+                <dd>
+                  {address.split('\n').map((line, index) => (
+                    <span key={line}>
+                      {index > 0 && <br />}
+                      {line}
+                    </span>
+                  ))}
+                </dd>
               </div>
             )}
             {hours && (
@@ -145,9 +152,16 @@ export default function Contact({ embedded = false }) {
               <div className="map-placeholder">
                 <img className="map-art" src={assets.contactPin} alt="" />
                 <p>
-                  <Icon name="PlaceOutlined" fontSize="small" /> Ahmedabad, Gujarat
+                  <Icon name="PlaceOutlined" fontSize="small" /> Registered address
                 </p>
-                <span>A precise map will appear here when the registered address is added.</span>
+                <span>
+                  {(address || company.city).split('\n').map((line, index) => (
+                    <span key={line}>
+                      {index > 0 && <br />}
+                      {line}
+                    </span>
+                  ))}
+                </span>
               </div>
             )}
           </div>

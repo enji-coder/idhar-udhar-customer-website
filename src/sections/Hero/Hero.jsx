@@ -68,8 +68,8 @@ export default function Hero() {
               <span>Steps</span>
             </li>
             <li>
-              <strong>City</strong>
-              <span>Ahmedabad</span>
+              <strong>Gujarat</strong>
+              <span>More states soon</span>
             </li>
           </motion.ul>
         </div>

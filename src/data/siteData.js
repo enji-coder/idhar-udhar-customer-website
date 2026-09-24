@@ -25,7 +25,7 @@ export const siteData = {
     siteUrl: "https://YOUR_DOMAIN",
     title: "IDHAR UDHAR | Local Parcel & Goods Delivery",
     description:
-      "IDHAR UDHAR helps customers move parcels and goods across Ahmedabad with convenient booking, vehicle options and delivery visibility.",
+      "IDHAR UDHAR helps customers move parcels and goods with convenient booking, vehicle options and delivery visibility. Currently serving customers across Gujarat, with more cities and states coming soon.",
   },
 
   company: {
@@ -33,9 +33,9 @@ export const siteData = {
     legalName: "Swiftsendinnovation",
     city: "Ahmedabad, Gujarat",
     year: 2026,
-    email: "",
-    phone: "",
-    address: "",
+    email: "swiftsendinnovation@gmail.com",
+    phone: "6351527338",
+    address: "C-12 Floor 1206\nRAJYASH RISE, B/S VISHALA, NR APMC MARKET\nNARAYAN NAGAR\nAhmedabad, Gujarat - 380007",
     supportHours: "",
     mapEmbedUrl: "",
     logoIncludesWordmark: true,
@@ -57,10 +57,10 @@ export const siteData = {
   bookCta: { label: "Book a Delivery", to: "/#book" },
 
   hero: {
-    eyebrow: "IDHAR UDHAR  ·  Ahmedabad",
+    eyebrow: "IDHAR UDHAR  ·  Gujarat",
     title: "Local Delivery. Simplified.",
     display: ["Local", "Delivery.", "Simplified."],
-    text: "IDHAR UDHAR helps customers move parcels and goods across the city with suitable vehicle options, convenient booking and delivery visibility.",
+    text: "IDHAR UDHAR helps customers move parcels and goods with suitable vehicle options, convenient booking and delivery visibility. Serving Gujarat, with expansion to more states coming soon.",
     primaryCta: "Book a Delivery",
     secondaryCta: "Explore Services",
     cards: [
@@ -99,15 +99,15 @@ export const siteData = {
   ],
 
   city: {
-    eyebrow: "Ahmedabad",
+    eyebrow: "Gujarat",
     title: "The City Moves. We Move With It.",
-    text: "A pickup, a vehicle, and a drop. IDHAR UDHAR is built to make that local trip easier to book and easier to follow.",
-    ahmedabadTitle: "Starting With Ahmedabad.",
+    text: "A pickup, a vehicle, and a drop. IDHAR UDHAR is built to make that local trip easier to book and easier to follow. Serving Gujarat, with expansion to more states coming soon.",
+    ahmedabadTitle: "Serving Gujarat.",
     ahmedabadText:
-      "IDHAR UDHAR is focused on simplifying local goods transportation in Ahmedabad. The neighbourhoods below are the current focus. They do not mean every street is covered, and they do not mean the service runs nationwide. Availability is confirmed when you book.",
-    mapNote: "A schematic of initial focus areas. This is not an official city map.",
+      "Currently serving customers across Gujarat, with more cities and states coming soon. The business is based in Ahmedabad. Neighbourhoods such as those listed below are examples, not a complete coverage list. They do not mean every street is covered, and they do not mean the service runs nationwide. Availability is confirmed when you book.",
+    mapNote: "A schematic of listed Ahmedabad areas. This is not an official coverage map.",
     cards: [
-      { label: "Ahmedabad", text: "Where the service is focused" },
+      { label: "Ahmedabad", text: "Where the business is based" },
       { label: "Pickup", text: "Where the goods are collected" },
       { label: "Route", text: "The path between the stops" },
       { label: "Drop", text: "Where the goods are delivered" },
@@ -382,7 +382,7 @@ export const siteData = {
     title: "We Are Building A Simpler Way To Move Things.",
     paragraphs: [
       "IDHAR UDHAR is being built to make local goods transportation simpler, more connected and technology-driven.",
-      "A parcel still has to travel a real street. Someone has to be at the pickup. The vehicle has to make sense for the load. We are building the product around that reality, for customers and businesses in Ahmedabad.",
+      "A parcel still has to travel a real street. Someone has to be at the pickup. The vehicle has to make sense for the load. We are building the product around that reality, for customers and businesses across Gujarat, with more states coming soon. The business is based in Ahmedabad.",
       "IDHAR UDHAR is a product of Swiftsendinnovation.",
     ],
   },
@@ -436,12 +436,12 @@ export const siteData = {
     {
       question: "What is IDHAR UDHAR?",
       answer:
-        "IDHAR UDHAR is a local parcel and goods transportation platform from Swiftsendinnovation. It helps customers book a suitable vehicle and follow the delivery. The current focus is Ahmedabad.",
+        "IDHAR UDHAR is a local parcel and goods transportation platform from Swiftsendinnovation. It helps customers book a suitable vehicle and follow the delivery. Currently serving customers across Gujarat, with more cities and states coming soon.",
     },
     {
       question: "Where is IDHAR UDHAR currently available?",
       answer:
-        "The initial focus is Ahmedabad, Gujarat, including areas such as Navrangpura, Satellite, Maninagar, Bopal, Naroda, Gota and SG Highway. Listing an area does not promise every lane inside it, and it does not mean the service is available across India. Coverage is confirmed during booking.",
+        "Currently serving customers across Gujarat, with more cities and states coming soon. The business is based in Ahmedabad. Areas such as Navrangpura, Satellite, Maninagar, Bopal, Naroda, Gota and SG Highway are examples, not a complete list. Listing an area does not promise every lane inside it, and it does not mean the service is available across India. Coverage is confirmed during booking.",
     },
     {
       question: "What can I send through IDHAR UDHAR?",
@@ -486,7 +486,7 @@ export const siteData = {
     {
       question: "How can I contact support?",
       answer:
-        "Use the contact page. Email, phone and address will appear there once Swiftsendinnovation publishes them. Please do not send payment secrets to support.",
+        "Use the contact page, or email swiftsendinnovation@gmail.com and call 6351527338. Please do not send payment secrets to support.",
     },
     {
       question: "What items cannot be transported?",
@@ -497,9 +497,9 @@ export const siteData = {
   contact: {
     eyebrow: "Contact",
     title: "We are here when you need the delivery to be clear.",
-    text: "Questions about a booking, a business shipment, or this website can come here. Once a support email is published, this form opens a message to the company. It does not store your message on a server.",
+    text: "Questions about a booking, a business shipment, or this website can come here. This form opens a message to the support email. It does not store your message on a server.",
     formNote:
-      "This form is ready for messages once a support email is added in the site settings. Until then, use the contact details published on this page.",
+      "Use the support email and phone published on this page.",
   },
 
   appLinks: {
@@ -523,7 +523,7 @@ export const siteData = {
   },
 
   footer: {
-    blurb: "Local parcel and goods delivery for Ahmedabad. Choose a vehicle, confirm the trip, and follow it from pickup to drop.",
+    blurb: "Local parcel and goods delivery. Serving Gujarat, with expansion to more states coming soon. Choose a vehicle, confirm the trip, and follow it from pickup to drop.",
     columns: [
       {
         title: "Company",
@@ -562,7 +562,7 @@ export const siteData = {
       updated: "23 September 2026",
       lede: "How Swiftsendinnovation handles information when you use the IDHAR UDHAR website, customer app, and related delivery services.",
       notice:
-        "Registration numbers, a grievance officer, and a registered office address will be added here when Swiftsendinnovation confirms them. They are intentionally left blank rather than invented.",
+        "Registration numbers and a grievance officer will be added here when Swiftsendinnovation confirms them. They are intentionally left blank rather than invented.",
       sections: [
         {
           heading: "Who we are",
@@ -617,7 +617,7 @@ export const siteData = {
         {
           heading: "Contact",
           paragraphs: [
-            "Privacy requests can be sent to the email address published on the contact page. If that address is not published yet, use the contact form once email delivery is active, or the phone number once it is published.",
+            "Privacy requests can be sent to swiftsendinnovation@gmail.com or to 6351527338, or through the contact page. Do not send payment secrets.",
           ],
         },
       ],
@@ -633,7 +633,7 @@ export const siteData = {
         {
           heading: "The service",
           paragraphs: [
-            "IDHAR UDHAR connects customers with delivery vehicles for local transportation of parcels and goods. The present focus is Ahmedabad, Gujarat.",
+            "IDHAR UDHAR connects customers with delivery vehicles for local transportation of parcels and goods. Currently serving customers across Gujarat, with more cities and states coming soon. The business is based in Ahmedabad, Gujarat.",
             "A booking is formed when you confirm a trip in the customer experience. The vehicle, stops, price, and payment method are those shown at confirmation. Options that are not shown are not part of that booking.",
           ],
         },
@@ -747,8 +747,8 @@ export const siteData = {
         {
           heading: "Service area",
           paragraphs: [
-            "IDHAR UDHAR is focused on local transportation in Ahmedabad, Gujarat. Initial areas include Navrangpura, Satellite, Maninagar, Bopal, Naroda, Gota and SG Highway.",
-            "An area on this website is a focus, not a promise that every address inside it can be served. The booking flow confirms whether a pickup and drop are accepted.",
+            "Currently serving customers across Gujarat, with more cities and states coming soon. The business is based in Ahmedabad, Gujarat. Areas such as Navrangpura, Satellite, Maninagar, Bopal, Naroda, Gota and SG Highway are examples, not a complete coverage list.",
+            "An area named on this website is an example, not a promise that every address inside it can be served. The booking flow confirms whether a pickup and drop are accepted.",
           ],
         },
         {

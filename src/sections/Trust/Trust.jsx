@@ -6,7 +6,7 @@ export default function Trust() {
   return (
     <section className="trust" aria-label="What you can expect">
       <div className="container">
-        <p className="trust-kicker">Focused on {siteData.company.city}</p>
+        <p className="trust-kicker">Based in {siteData.company.city}</p>
         <h2 className="sr-only">What you can expect</h2>
         <div className="trust-panel">
           {siteData.trust.map((item, index) => (
