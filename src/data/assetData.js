@@ -1,51 +1,60 @@
-/**
- * Paths for original IDHAR UDHAR illustrations.
- * Replace a file in public/assets/3d and keep the same path,
- * or update only this map if a filename changes.
- */
-
-const vehicles = "/assets/3d/vehicles"
-const services = "/assets/3d/services"
-const features = "/assets/3d/features"
-const steps = "/assets/3d/how-it-works"
+const brand = "/assets/brand"
 
 export const assets = {
-  heroScene: "/assets/3d/hero/hero-delivery-scene.svg",
-  cityRoute: "/assets/3d/hero/city-route.svg",
-  contactPin: "/assets/3d/contact/ahmedabad-pin.svg",
+  logo: `${brand}/logo.png`,
+  heroCenter: `${brand}/delivery-progress.png`,
+  contactPin: `${brand}/pin.png`,
+  cityRoute: `${brand}/network.png`,
+
+  orbit: [
+    { src: `${brand}/scooter.png`, label: "Bike" },
+    { src: `${brand}/car.png`, label: "Car" },
+    { src: `${brand}/rider.png`, label: "Rider" },
+    { src: `${brand}/truck-box.png`, label: "Truck" },
+    { src: `${brand}/auto-passenger.png`, label: "Auto" },
+    { src: `${brand}/delivery-bike-navy.png`, label: "Scooter" },
+  ],
 
   vehicles: {
-    bike: `${vehicles}/bike.svg`,
-    truck: `${vehicles}/truck.svg`,
-    "mini-truck": `${vehicles}/mini-truck.svg`,
-    tempo: `${vehicles}/tempo.svg`,
-    "large-tempo": `${vehicles}/large-tempo.svg`,
+    bike: `${brand}/delivery-bike.png`,
+    truck: `${brand}/truck-box.png`,
+    "mini-truck": `${brand}/pickup.png`,
+    tempo: `${brand}/auto-cargo.png`,
+    "large-tempo": `${brand}/truck-cage.png`,
   },
 
   services: {
-    "local-parcel": `${services}/local-parcel.svg`,
-    "business-deliveries": `${services}/business-deliveries.svg`,
-    "door-to-door": `${services}/door-to-door.svg`,
-    "multi-stop": `${services}/multi-stop.svg`,
-    scheduled: `${services}/scheduled.svg`,
-    "business-transport": `${services}/business-transport.svg`,
+    "local-parcel": `${brand}/parcel.png`,
+    "business-deliveries": `${brand}/parcel-stack.png`,
+    "door-to-door": `${brand}/pin.png`,
+    "multi-stop": `${brand}/network.png`,
+    scheduled: `${brand}/delivery-progress.png`,
+    "business-transport": `${brand}/moving.png`,
   },
 
   features: {
-    "easy-booking": `${features}/easy-booking.svg`,
-    "multiple-stops": `${features}/multiple-stops.svg`,
-    "rider-assignment": `${features}/rider-assignment.svg`,
-    tracking: `${features}/delivery-tracking.svg`,
-    notifications: `${features}/notifications.svg`,
-    "secure-payments": `${features}/secure-payments.svg`,
-    cod: `${features}/cod.svg`,
-    status: `${features}/delivery-status.svg`,
+    "easy-booking": `${brand}/parcel.png`,
+    "multiple-stops": `${brand}/network.png`,
+    "rider-assignment": `${brand}/rider.png`,
+    tracking: `${brand}/delivery-progress.png`,
+    notifications: `${brand}/pin.png`,
+    "secure-payments": `${brand}/parcel-stack.png`,
+    cod: `${brand}/scooter-box.png`,
+    status: `${brand}/rider-scooter.png`,
   },
 
   howItWorks: [
-    `${steps}/pickup-drop.svg`,
-    `${steps}/vehicle-selection.svg`,
-    `${steps}/order-confirmation.svg`,
-    `${steps}/delivery-tracking.svg`,
+    `${brand}/pin.png`,
+    `${brand}/delivery-bike.png`,
+    `${brand}/parcel.png`,
+    `${brand}/delivery-progress.png`,
   ],
+
+  extras: {
+    car: `${brand}/car.png`,
+    autoPassenger: `${brand}/auto-passenger.png`,
+    scooterBox: `${brand}/scooter-box.png`,
+    rider: `${brand}/rider.png`,
+    bikeNavy: `${brand}/delivery-bike-navy.png`,
+  },
 }

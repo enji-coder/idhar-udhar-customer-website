@@ -1,13 +1,13 @@
 import { createTheme } from '@mui/material/styles'
 
-const font = '"Manrope", Inter, system-ui, sans-serif'
+const font = '"Plus Jakarta Sans", Inter, system-ui, sans-serif'
 
 const theme = createTheme({
   palette: {
-    primary: { main: '#FF6B35', dark: '#E4572E', contrastText: '#111827' },
-    secondary: { main: '#18B6C9', contrastText: '#111827' },
-    text: { primary: '#111827', secondary: '#4B5565' },
-    background: { default: '#F7F5F3', paper: '#FFFFFF' },
+    primary: { main: '#E85D04', dark: '#C2410C', contrastText: '#FFFFFF' },
+    secondary: { main: '#1B3A6B', contrastText: '#FFFFFF' },
+    text: { primary: '#141820', secondary: '#5C6370' },
+    background: { default: '#FFFBF8', paper: '#FFFFFF' },
     divider: 'rgba(17, 24, 39, 0.08)',
   },
   typography: {
@@ -33,7 +33,7 @@ const theme = createTheme({
     MuiCssBaseline: {
       styleOverrides: {
         body: {
-          backgroundColor: '#F7F5F3',
+          backgroundColor: '#FFFBF8',
           fontFamily: font,
         },
       },

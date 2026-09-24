@@ -4,14 +4,6 @@ import { siteData } from '../../data/siteData'
 import SectionHeading from '../../components/SectionHeading/SectionHeading'
 import VehicleArt from '../../components/illustrations/VehicleArt'
 
-const GLOW = {
-  bike: 'rgba(24, 182, 201, 0.45)',
-  truck: 'rgba(255, 107, 53, 0.42)',
-  'mini-truck': 'rgba(255, 183, 148, 0.5)',
-  tempo: 'rgba(125, 211, 224, 0.42)',
-  'large-tempo': 'rgba(255, 122, 77, 0.4)',
-}
-
 export default function Vehicles() {
   const [active, setActive] = useState(0)
   const reduce = useReducedMotion()
@@ -35,13 +27,9 @@ export default function Vehicles() {
   }
 
   return (
-    <section
-      className="section fleet"
-      id="vehicles"
-      style={{ '--fleet': vehicle.tone, '--glow': GLOW[vehicle.id] || 'rgba(255,107,53,0.35)' }}
-    >
+    <section className="section fleet" id="vehicles">
       <div className="container">
-        <SectionHeading {...siteData.vehiclesIntro} light />
+        <SectionHeading {...siteData.vehiclesIntro} />
         <div className="fleet-stage" id="vehicle-panel" role="tabpanel" aria-labelledby={`tab-${vehicle.id}`}>
           <AnimatePresence mode="wait">
             <motion.div

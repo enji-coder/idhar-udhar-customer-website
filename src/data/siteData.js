@@ -38,7 +38,7 @@ export const siteData = {
     address: "",
     supportHours: "",
     mapEmbedUrl: "",
-    logoIncludesWordmark: false,
+    logoIncludesWordmark: true,
     gstin: "",
     cin: "",
     grievanceOfficer: "",
@@ -208,7 +208,7 @@ export const siteData = {
       description: "Designed for smaller parcels and quick city deliveries.",
       tone: "#1B2430",
       route: "short",
-      image: "",
+      image: "/assets/brand/delivery-bike.png",
     },
     {
       id: "truck",
@@ -216,7 +216,7 @@ export const siteData = {
       description: "For larger goods that need the space of a truck body.",
       tone: "#171C28",
       route: "long",
-      image: "",
+      image: "/assets/brand/truck-box.png",
     },
     {
       id: "mini-truck",
@@ -224,7 +224,7 @@ export const siteData = {
       description: "For deliveries that need more room.",
       tone: "#241C22",
       route: "medium",
-      image: "",
+      image: "/assets/brand/pickup.png",
     },
     {
       id: "tempo",
@@ -232,7 +232,7 @@ export const siteData = {
       description: "A practical option for mid-sized goods moving through the city.",
       tone: "#172228",
       route: "medium",
-      image: "",
+      image: "/assets/brand/auto-cargo.png",
     },
     {
       id: "large-tempo",
@@ -240,7 +240,7 @@ export const siteData = {
       description: "For bulkier local loads that need extra cargo space.",
       tone: "#201A24",
       route: "long",
-      image: "",
+      image: "/assets/brand/truck-cage.png",
     },
   ],
 

@@ -1,8 +1,5 @@
 import Seo from '../../components/Seo/Seo'
 import Hero from '../../sections/Hero/Hero'
-import Trust from '../../sections/Trust/Trust'
-import Journey from '../../sections/Journey/Journey'
-import HowItWorks from '../../sections/HowItWorks/HowItWorks'
 import Services from '../../sections/Services/Services'
 import Vehicles from '../../sections/Vehicles/Vehicles'
 import Features from '../../sections/Features/Features'
@@ -10,6 +7,7 @@ import ProductExperience from '../../sections/ProductExperience/ProductExperienc
 import Technology from '../../sections/Technology/Technology'
 import WhyIdharUdhar from '../../sections/WhyIdharUdhar/WhyIdharUdhar'
 import About from '../../sections/About/About'
+import Journey from '../../sections/Journey/Journey'
 import Team from '../../sections/Team/Team'
 import FAQ from '../../sections/FAQ/FAQ'
 import Contact from '../../sections/Contact/Contact'
@@ -21,9 +19,6 @@ export default function Home() {
     <>
       <Seo title={siteData.seo.title} description={siteData.seo.description} path="/" />
       <Hero />
-      <Trust />
-      <Journey />
-      <HowItWorks />
       <Services />
       <Vehicles />
       <Features />
@@ -31,6 +26,7 @@ export default function Home() {
       <Technology />
       <WhyIdharUdhar />
       <About />
+      <Journey />
       <Team />
       <FAQ />
       <Contact />
